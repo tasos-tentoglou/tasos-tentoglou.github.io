@@ -113,7 +113,7 @@ input, select, textarea {
 	/* COLOR CHANGE */
 	body {
 		/* background: #f8dfdb; */
-		background: #c8a47e;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -143,7 +143,7 @@ input, select, textarea {
 	/* COLOR CHANGE */
 	body, input, select, textarea {
 		/* color: #fc2f28; */
-		color: #000000;
+		color: #1400a2;
 		font-family: 'Playfair Display', serif;
 		font-size: 16pt;
 		line-height: 1.75;
@@ -170,15 +170,15 @@ input, select, textarea {
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		text-decoration: underline 1px #375b81;
+		text-decoration: underline 1px #971b2f;
 		color: #000000;
 		/* border-bottom: dotted 1px rgba(88, 88, 88, 0.5); */
-		/* border-bottom: #375b81; */
+		/* border-bottom: #971b2f; */
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #375b81 !important;
+			background-color: #1400a2;
+			color: #ffffff !important;
 		}
 
 	strong, b {
@@ -1884,8 +1884,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #375b81;
-				border-color: #375b81;
+				color: #971b2f;
+				border-color: #971b2f;
 			}
 
 			.icon.style2:active {
@@ -2198,8 +2198,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #375b81;
-			box-shadow: inset 0 -1px 0 0 #375b81;
+			border-bottom-color: #971b2f;
+			box-shadow: inset 0 -1px 0 0 #971b2f;
 		}
 
 	select {
@@ -2303,8 +2303,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #375b81;
-			box-shadow: 0 0 0 1px #375b81;
+			border-color: #971b2f;
+			box-shadow: 0 0 0 1px #971b2f;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2522,8 +2522,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #375b81 !important;
-			box-shadow: inset 0 0 0 2px #375b81;
+			color: #971b2f !important;
+			box-shadow: inset 0 0 0 2px #971b2f;
 		}
 
 		input[type="submit"]:active,
@@ -2565,7 +2565,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #375b81;
+				background-color: #971b2f;
 			}
 
 			input[type="submit"].primary:active,
@@ -2876,7 +2876,7 @@ input, select, textarea {
 			color: inherit;
 			font-weight: 500;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			/* margin: 0 0 2.5em 0; */
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -2966,7 +2966,7 @@ input, select, textarea {
 						}
 
 						#header nav ul li a[href="#menu"]:before {
-							/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23375b81%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E"); */
+							/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23971b2f%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E"); */
 							opacity: 0;
 						}
 
@@ -3116,7 +3116,7 @@ input, select, textarea {
 			}
 
 			#menu > .close:before {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23375b81%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23971b2f%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
 				opacity: 0;
 			}
 
