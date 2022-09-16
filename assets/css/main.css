@@ -2699,6 +2699,7 @@ input, select, textarea {
 				border-radius: 4px;
 				border-bottom: 0;
 				color: #ffffff;
+				background-color: transparent;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
