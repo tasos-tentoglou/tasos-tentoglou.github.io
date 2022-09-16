@@ -169,10 +169,9 @@ input, select, textarea {
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		text-decoration: underline 1px #971b2f;
-		color: #000000;
-		/* border-bottom: dotted 1px rgba(88, 88, 88, 0.5); */
-		/* border-bottom: #971b2f; */
+		text-decoration: dotted 1px transparent;
+		color: #1400a2;
+		border-bottom: dotted 1px #1400a2;
 	}
 
 		a:hover {
